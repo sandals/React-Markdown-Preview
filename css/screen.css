@@ -1,0 +1,38 @@
+body {
+	line-height: 1.6em;
+}
+
+.editor-container {
+	float: left;
+	width: 50vw;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+.responsive-editor {
+	border: 0;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	min-height: 34px;
+	box-sizing: border-box;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	resize: none;
+	font-size: 21px;
+	padding: 1em;
+	color: #666;
+}
+.responsive-editor:focus {
+	color: #111;
+}
+
+.editor-preview {
+	float: right;
+	width: 50vw;
+	height: 100vh;
+}
+
+.preview-content {
+	padding: 1em;
+}
