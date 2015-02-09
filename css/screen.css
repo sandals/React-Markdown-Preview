@@ -37,3 +37,7 @@ body {
 	height: 100vh;
 	padding: 1em;
 }
+
+.preview-content img {
+	width: 100%;
+}
