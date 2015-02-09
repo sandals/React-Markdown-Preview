@@ -19,7 +19,6 @@ body {
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	resize: none;
-	font-size: 21px;
 	padding: 1em;
 	color: #666;
 }
@@ -34,5 +33,7 @@ body {
 }
 
 .preview-content {
+	border-left: 1px solid #F9F9F9;
+	height: 100vh;
 	padding: 1em;
 }
