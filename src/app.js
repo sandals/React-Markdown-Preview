@@ -1,4 +1,4 @@
-var App = React.createClass({
+var FullscreenEditor = React.createClass({
 	getInitialState: function() {
 		return {
 			preview_body: '# '
@@ -49,4 +49,4 @@ var Preview = React.createClass({
 	}
 });
 
-React.render(<App/>, document.body);
+React.render(<FullscreenEditor/>, document.body);
